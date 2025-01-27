@@ -1,3 +1,45 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# General build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.tmp
+*.bak
+*.so
+*.dll
+*.dylib
+*.a
+
+# Gradle-specific files
+.gradle/
+build/
+*.iml
+*.idea/workspace.xml
+*.idea/libraries/
+*.idea/modules.xml
+*.idea/uiDesigner.xml
+*.ipr
+*.iws
+.DS_Store
+
+# Kotlin-specific files
+*.kotlin_module
+
+# Ktor-specific files
+ktor_application.jar
+
+# Test-related files
+build/test-results/
+build/reports/
+
+# IDE-specific files
+.vscode/
+
+# Docker-related files
+Dockerfile*
+docker-compose.yml
+.dockerignore
