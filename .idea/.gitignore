@@ -25,6 +25,11 @@ build/
 *.ipr
 *.iws
 .DS_Store
+.idea/caches/
+.idea/vcs.xml
+.idea/encodings.xml
+.idea/codeStyleSettings.xml
+.idea/inspectionProfiles/
 
 # Kotlin-specific files
 *.kotlin_module
@@ -35,6 +40,7 @@ ktor_application.jar
 # Test-related files
 build/test-results/
 build/reports/
+coverage/
 
 # IDE-specific files
 .vscode/
@@ -43,3 +49,13 @@ build/reports/
 Dockerfile*
 docker-compose.yml
 .dockerignore
+
+# Additional exclusions
+.gradle/8.10/checksums/checksums.lock
+*~
+.env
+application.properties
+
+# Debug Files
+*.pdb
+*.dSYM
